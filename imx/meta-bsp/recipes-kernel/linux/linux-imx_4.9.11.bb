@@ -20,7 +20,7 @@ SRCBRANCH = "SBC-7112S_Linux_Kernel-v4.9.11"
 KERNEL_SRC ?= "git://github.com/AplexOS/Linux-Kernel.git;protocol=git"
 #KERNEL_SRC ?= "git://github.com/leelin0922/kernel-source.git;protocol=git"
 SRC_URI = "${KERNEL_SRC};branch=${SRCBRANCH}"
-SRCREV = "c6349d69784888e87170025c240b651e1235ff64"
+SRCREV = "80789313413382f9bf35fbf85cbe0bbbe9f5113b"
 
 DEFAULT_PREFERENCE = "1"
 
