@@ -14,10 +14,10 @@ LIC_FILES_CHKSUM = "file://Licenses/gpl-2.0.txt;md5=b234ee4d69f5fce4486a80fdaf4a
 #UBOOT_SRC ?= "git://git.freescale.com/imx/uboot-imx.git;protocol=git"
 #SRC_URI = "${UBOOT_SRC};branch=${SRCBRANCH}"
 #SRCREV = "a2fea67d3eb3092f19f250d53a4a27fa1a0c815f"
-SRCBRANCH = "SBC-7112S_Linux_Uboot-v2017.03"
+SRCBRANCH = "SBC-7819S_Linux_Uboot-v2017.03"
 UBOOT_SRC ?= "git://github.com/AplexOS/U-Boot.git;protocol=git"
 SRC_URI = "${UBOOT_SRC};branch=${SRCBRANCH}"
-SRCREV = "33afd18e189dd7e94ea95137faf6be31ad11322a"
+SRCREV = "5ee56a8fb003f914fa3e5342382112ad8048993f"
 
 S = "${WORKDIR}/git"
 

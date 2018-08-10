@@ -16,11 +16,11 @@ LOCALVERSION = "-1.0.0"
 #KERNEL_SRC ?= "git://git.freescale.com/imx/linux-imx.git;protocol=git"
 #SRC_URI = "${KERNEL_SRC};branch=${SRCBRANCH}"
 #SRCREV = "c27010d99a3d91703ea2d1a3f9630a9dedc3f86f"
-SRCBRANCH = "SBC-7112S_Linux_Kernel-v4.9.11"
+SRCBRANCH = "SBC-7819S_Linux_Kernel-v4.9.11"
 KERNEL_SRC ?= "git://github.com/AplexOS/Linux-Kernel.git;protocol=git"
 #KERNEL_SRC ?= "git://github.com/leelin0922/kernel-source.git;protocol=git"
 SRC_URI = "${KERNEL_SRC};branch=${SRCBRANCH}"
-SRCREV = "80789313413382f9bf35fbf85cbe0bbbe9f5113b"
+SRCREV = "1542f74c04a774f557ccf03330289c3effff4cf8"
 
 DEFAULT_PREFERENCE = "1"
 

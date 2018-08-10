@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 PR = "r0"
  
 SRC_URI = "git://github.com/AplexOS/Qt-Examples.git;protocol=git;branch=morty"
-SRCREV = "1ee17f1e99977d07e8035f8c4c8d9800ea50b6f4"
+SRCREV = "d934dcf686f103db8351f14f04d163205bb15c68"
 S = "${WORKDIR}/git"
  
 DEPENDS = "qtdeclarative qtgraphicaleffects"

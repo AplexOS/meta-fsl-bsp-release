@@ -12,6 +12,15 @@ export GSTL=gst-launch-1.0
 export PLAYBIN=playbin
 export GPLAY=gplay-1.0
 export GSTINSPECT=gst-inspect-1.0
+chmod 777 /dev/ttymxc*
+chmod 777 /dev/fb0
+chmod 777 /dev/i2c*
+chmod 777 /dev/pwm-buzzer
+
+if [ -f "/et/brightness" ]; then
+	cat /etc/brightness > /sys/class/backlight/pwm-backlight.0/brightness
+	cat /etc/brightness > /sys/class/backlight/pwm-backlight.1/brightness 
+fi
 
 if [ ! -e /etc/localtime -a ! -e /etc/TZ ]; then
 	TZ="UTC"		# Time Zone. Look at http://theory.uwinnipeg.ca/gnu/glibc/libc_303.html
