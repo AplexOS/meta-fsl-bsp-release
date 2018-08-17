@@ -12,10 +12,12 @@ export GSTL=gst-launch-1.0
 export PLAYBIN=playbin
 export GPLAY=gplay-1.0
 export GSTINSPECT=gst-inspect-1.0
-chmod 777 /dev/ttymxc*
-chmod 777 /dev/fb0
-chmod 777 /dev/i2c*
-chmod 777 /dev/pwm-buzzer
+chmod 666 /dev/ttymxc*
+chmod 666 /dev/fb0
+chmod 666 /dev/i2c*
+chmod 666 /dev/pwm-buzzer
+chmod 666 /sys/class/backlight/pwm-backlight.0/brightness
+chmod 666 /sys/class/backlight/pwm-backlight.1/brightness
 
 if [ -f "/et/brightness" ]; then
 	cat /etc/brightness > /sys/class/backlight/pwm-backlight.0/brightness
